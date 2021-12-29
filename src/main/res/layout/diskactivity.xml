@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity2">
+
+
+    <EditText
+        android:id="@+id/curr"
+        android:layout_width="365dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/curhead"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="157dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/round_primary"
+        android:hint="@string/UploadButton"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request" />
+
+    <EditText
+        android:id="@+id/request"
+        android:layout_width="365dp"
+        android:layout_height="77dp"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:hint="@string/requestq"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curr" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

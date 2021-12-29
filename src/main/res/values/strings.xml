@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Scheduling Algorithms</string>
+    <string name="cpubutton">CPU Scheduling</string>
+    <string name="diskbutton">Disk Scheduling</string>
+    <string name="curhead">Enter Your Current Head </string>
+    <string name="requestq">Enter Request Queue </string>
+    <string name="UploadButton">Submit</string>
+    <string name="FCFSBut">FCFS</string>
+    <string name="SSTFBut">SSTF</string>
+    <string name="CLOOKBUT">CLOOK</string>
+    <string name="CSCANBUT">CSCAN</string>
+    <string name="LookBut">LOOK</string>
+    <string name="ScanBut">SCAN</string>
+</resources>

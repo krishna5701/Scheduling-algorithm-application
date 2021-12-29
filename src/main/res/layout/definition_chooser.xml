@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="130dp"
+    tools:context=".Definitions">
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="110dp"
+        android:layout_height="59dp"
+        android:background="@drawable/round_primary"
+        android:onClick="FCFSdescription"
+        android:text="FCFS"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="110dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_primary"
+        android:onClick="SCANdescription"
+        android:text="SCAN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="110dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_primary"
+        android:onClick="LOOKdescription"
+        android:text="LOOK"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="110dp"
+        android:layout_height="59dp"
+        android:background="@drawable/round_primary"
+        android:onClick="SSTFdescription"
+        android:text="SSTF"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button22"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="110dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_primary"
+        android:onClick="CSCANdescription"
+        android:text="CSCAN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button23"
+        app:layout_constraintTop_toBottomOf="@+id/button25" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="110dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_primary"
+        android:onClick="CLOOKdescription"
+        android:text="CLOOK"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button24"
+        app:layout_constraintTop_toBottomOf="@+id/button26" />
+</androidx.constraintlayout.widget.ConstraintLayout>
